@@ -1,3 +1,98 @@
-h1 {
-    color: blue;
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.modal--container {
+    border: 2px grey solid;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    justify-content: center;
+}
+
+
+.modal--img {
+    border: 2px grey solid;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: 8px;
+}
+
+#img-1 {
+    background-image: url(/lib/img/Belinni.jpeg);
+}
+
+#img-2 {
+    background-image: url(/lib/img/Cosmo.avif);
+}
+
+#img-3 {
+    background-image: url(/lib/img/French75.jpeg);
+}
+
+#img-4 {
+    background-image: url(/lib/img/Gimlet.avif);
+}
+
+#img-5 {
+    background-image: url(/lib/img/GinFizz.webp);
+}
+
+#img-6 {
+    background-image: url(/lib/img/Manhattan.avif);
+}
+
+#img-7 {
+    background-image: url(/lib/img/Marg.avif);
+}
+
+#img-8 {
+    background-image: url(/lib/img/Martini.avif);
+}
+
+#img-9 {
+    background-image: url(/lib/img/Mojito.avif);
+}
+
+#img-10 {
+    background-image: url(/lib/img/Mule.avif);
+}
+
+#img-11 {
+    background-image: url(/lib/img/Negroni.avif);
+}
+
+#img-12 {
+    background-image: url(/lib/img/OldFashion.avif);
+}
+
+#img-13 {
+    background-image: url(/lib/img/Paloma.avif);
+}
+
+#img-14 {
+    background-image: url(/lib/img/Pimms.jpeg);
+}
+
+#img-15 {
+    background-image: url(/lib/img/Sazerac.webp);
+}
+
+#img-16 {
+    background-image: url(/lib/img/Southside.webp);
+}
+
+#img-17 {
+    background-image: url(/lib/img/Vesper.webp);
+}
+
+#img-18 {
+    background-image: url(/lib/img/WhiskeySour.avif);
 }
