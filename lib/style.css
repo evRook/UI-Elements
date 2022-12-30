@@ -44,6 +44,18 @@ body {
     max-width: 720px;
     background-color: white;
     display: flex;
+    opacity: 1;
+}
+
+.js-visible--overlay {
+    display: block;
+    -webkit-transition: 0.5s;
+}
+
+.js-visible--modal {
+    display: flex;
+    opacity: 1;
+    -webkit-transition: 0.5s;
 }
 
 .modal--img {
