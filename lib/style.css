@@ -27,6 +27,7 @@ body {
     background-position: center;
     background-size: cover;
     box-shadow: 2px 6px 6px 2px black;
+    cursor: pointer;
 }
 
 .modal--txt {
@@ -75,6 +76,7 @@ body {
     height: 18px;
     width: 18px;
     text-align: center;
+    cursor: pointer;
 }
 
 .modal--list {
@@ -92,13 +94,13 @@ body {
 
 .js-visible--overlay {
     display: block;
-    -webkit-transition: 0.5s;
+    -webkit-transition: 1.5s;
 }
 
 .js-visible--modal {
     display: flex;
     opacity: 1;
-    -webkit-transition: 0.5s;
+    -webkit-transition: 1.5s;
 }
 
 #img-1 {
