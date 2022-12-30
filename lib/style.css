@@ -1,6 +1,7 @@
 * {
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -28,23 +29,65 @@ body {
     box-shadow: 2px 6px 6px 2px black;
 }
 
+.modal--txt {
+    max-width: 400px;
+    margin: 10px 15px 0px 15px;
+}
+
 .modal--overlay {
     border: 2px grey solid;
-    display: block;
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     padding-top: 150px;
+    background-color: rgb(255, 255, 255, .5);
 }
 
 .modal {
     border: 2px grey solid;
     max-width: 720px;
     background-color: white;
-    display: flex;
+    display: none;
     opacity: 1;
+}
+
+.modal--img {
+    height: inherit;
+    min-width: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.modal--titleContainer {
+    display: flex;
+}
+
+.modal--title {
+    margin: auto 0;
+}
+
+.modal--closeBtn {
+    margin-right: 0;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+}
+
+.modal--list {
+    list-style: none;
+    font-size: 12px;
+}
+
+.modal--topTxt {
+    font-size: 16px;
+}
+
+.modal--bottomTxt {
+    font-size: 14px;
 }
 
 .js-visible--overlay {
@@ -56,14 +99,6 @@ body {
     display: flex;
     opacity: 1;
     -webkit-transition: 0.5s;
-}
-
-.modal--img {
-    height: 350px;
-    width: 350px;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
 }
 
 #img-1 {
@@ -136,4 +171,37 @@ body {
 
 #img-18 {
     background-image: url(/lib/img/WhiskeySour.avif);
+}
+
+
+@media screen and (max-width: 576px) {
+
+    body {
+        margin-top: 50px;
+    }
+
+    .modal--overlay {
+        padding-top: 75px;
+    }
+
+    .modal--img {
+        min-width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .modal {
+        max-width: 500px;
+    }
+
+    .modal--img {
+        min-width: 200px;
+    }
+
+    .modal--title {
+        font-size: 20px;
+    }
+
 }
